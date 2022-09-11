@@ -14,7 +14,7 @@ Point operator*(double num, Point point) {
 	return Point{ point.x * num, point.y * num, point.z * num };
 }
 
-struct Line {
+struct Segment {
 	Point first;
 	Point second;
 };
